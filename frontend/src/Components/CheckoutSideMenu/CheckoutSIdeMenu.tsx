@@ -69,7 +69,7 @@ export const CheckoutSideMenu = () => {
             ${totalPrice(cartProduct.map((product: any) => product.price))}
           </span>
         </p>
-        <Link to={'/my-orders/last'}>
+        <Link to={'/my-orders'}>
           <button
             className="bg-black py-3 text-white w-full rounded-lg"
             onClick={handleCheckout}
